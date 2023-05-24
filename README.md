@@ -39,9 +39,9 @@ Today were going to use the following concepts to collect input and produce outp
 - console.log
 - document.write
 
-** - Input: Use prompt to grab some input from the user (Name, hour age?)**
-** - Processing: (in this case, conditional generation of dynamic content). Using the input, show an if else block.**
-** - Output: Show students document.write. Show alternative method of output: console.log()**
+- **Input: Use prompt to grab some input from the user (Name, hour age?)**
+- **Processing: (in this case, conditional generation of dynamic content). Using the input, show an if else block.**
+- **Output: Show students document.write. Show alternative method of output: console.log()**
 
 ## What user input do we want to collect from the user? Let's display that information with a message.
 ## Now let's use some new user input to determine an output. Some examples we could use are asking the time or the user's age and displaying a different message based on their answer
