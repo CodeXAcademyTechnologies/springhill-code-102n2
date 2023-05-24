@@ -21,7 +21,10 @@
 - conditionals
 - operators: 
 - data types: 
-- variable: 
+- variable:
+- console: A tool or interface that allows you to interact with a program or programming environment. It provides a way to display output, receive input, and execute commands or code snippets. The most common type of console you'll encounter is a developer console or browser console. It's a feature built into web browsers that allows developers to monitor and debug their web applications.
+
+ 
 
 JavaScript: What does a web site DO, while you are using it?
 
