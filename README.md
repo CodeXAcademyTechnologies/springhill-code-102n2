@@ -45,11 +45,8 @@ Input: Use prompt to grab some input from the user (Name, hour age?)
 Processing: (in this case, conditional generation of dynamic content). Using the input, show an if else block.
 Output: Show students document.write. Show alternative method of output: console.log()
 
-JavaScript has a feature called "type coercion" which means it can automatically convert values between different types in certain situations. In this case, when you compare the string input with numbers using comparison operators like <= or <, JavaScript tries to be helpful and converts the string to a number before making the comparison.
-
-For example, let's say you enter "10" as the time. JavaScript sees that you're comparing it to a number, so it tries to convert it to a number. Since "10" can be understood as the number 10, JavaScript goes ahead and performs the comparison.
-
-So when the code compares time <= 11, JavaScript converts the string "10" to the number 10, and since 10 is less than or equal to 11, it considers the condition as true. That's why the code assigns the corresponding message for "Good Morning!"
+## How number comparison works in time function:
+JavaScript has a feature called "type coercion" which means it can automatically convert values between different data types in certain situations. In this case, when you compare the string input with numbers using comparison operators like <= or <, JavaScript tries to be helpful and converts the string to a number before making the comparison.
 
 However, it's important to be careful with type coercion because it can sometimes lead to unexpected behavior or bugs. That's why it's generally recommended to explicitly convert user input to the desired type, like converting the string to a number using parseInt, before performing comparisons. This helps to ensure that the comparison is done accurately and gives you the results you expect.
 
