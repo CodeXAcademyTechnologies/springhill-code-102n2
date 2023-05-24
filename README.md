@@ -5,6 +5,7 @@
 ## Learning Goals:
 - Learn to incorporate JavaScript into a web page to create dynamic content that responds to input.
 - Learn to replicate code that uses logical branching and basic conditionals to determine the outcome of content on a web page.
+- JavaScript: What does a web site DO, while you are using it?
 
 ## Agenda:
 - Review of previous class
@@ -23,10 +24,6 @@
 - data types: 
 - variable:
 - console: A tool or interface that allows you to interact with a program or programming environment. It provides a way to display output, receive input, and execute commands or code snippets. The most common type of console you'll encounter is a developer console or browser console. It's a feature built into web browsers that allows developers to monitor and debug their web applications.
-
- 
-
-JavaScript: What does a web site DO, while you are using it?
 
 ## Input and Output: Today we're going to learn one way we can collect user input, and a few ways we can use input to determine and produce output.
 
@@ -48,6 +45,9 @@ Input: Use prompt to grab some input from the user (Name, hour age?)
 Processing: (in this case, conditional generation of dynamic content). Using the input, show an if else block.
 Output: Show students document.write. Show alternative method of output: console.log()
 
+## What user input do we want to collect from the user? Let's display that information with a message.
+## Now let's use some new user input to determine an output. Some examples we could use are asking the time or the user's age and displaying a different message based on their answer
+,
 ```
 let username = prompt('What is your name?');
 console.log('Hello, ' + username);
