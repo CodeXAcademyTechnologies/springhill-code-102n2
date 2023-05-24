@@ -70,7 +70,7 @@ JavaScript has a feature called "type coercion" which means it can automatically
 
 However, it's important to be careful with type coercion because it can sometimes lead to unexpected behavior or bugs. That's why it's generally recommended to explicitly convert user input to the desired type, like converting the string to a number using parseInt, before performing comparisons. This helps to ensure that the comparison is done accurately and gives you the results you expect.
 
-
+## Structure
 
 - WHY, what's the question or problem? In English...
 - WHAT, What is the solution or concepts we're going to use? In English..
