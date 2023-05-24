@@ -20,9 +20,8 @@
 - console: A tool or interface that allows you to interact with a program or programming environment. It provides a way to display output, receive input, and execute commands or code snippets. The most common type of console you'll encounter is a developer console or browser console. It's a feature built into web browsers that allows developers to monitor and debug their web applications.
 
 ## Learning Goals:
-- Learn to incorporate JavaScript into a web page to create dynamic content that responds to input.
-- Learn to replicate code that uses logical branching and basic conditionals to determine the outcome of content on a web page.
-- JavaScript: What does a web site DO, while you are using it?
+- Now that we've discussed that JavaScript is the interactive and dynamic piece of a web page...
+- Learn to use JavaScript to collect and respond to user input and implement basic conditionals to determine the outcome of content on a web page.
 
 ## Input and Output: Today we're going to learn one way we can collect user input, and a few ways we can use input to determine and produce output.
 
@@ -51,8 +50,12 @@ Output: Show students document.write. Show alternative method of output: console
 let username = prompt('What is your name?');
 console.log('Hello, ' + username);
 
+console.log(typeof(username));
+
 let time = prompt('What hour is it? (0-23)');
 let message;
+
+console.log(typeof(time));
 
 if(time <= 11){
     message = 'Good Morning!';
@@ -68,9 +71,9 @@ document.write('Hello ' + username + '! ' + message);
 ```
 
 ## How number comparison works in time function:
-JavaScript has a feature called "type coercion" which means it can automatically convert values between different data types in certain situations. In this case, when you compare the string input with numbers using comparison operators like <= or <, JavaScript tries to be helpful and converts the string to a number before making the comparison.
+JavaScript feature called "type coercion". Automatically converts values between different data types in certain situations. In this case, it compares the string input with numbers using comparison operators like <= or <, JavaScript tries to be helpful and converts the string to a number before making the comparison.
 
-However, it's important to be careful with type coercion because it can sometimes lead to unexpected behavior or bugs. That's why it's generally recommended to explicitly convert user input to the desired type, like converting the string to a number using parseInt, before performing comparisons. This helps to ensure that the comparison is done accurately and gives you the results you expect.
+Be careful with type coercion because it can sometimes lead to unexpected behavior or bugs. That's why it's generally recommended to explicitly convert user input to the desired type. But for now this serves our purpose.
 
 ## Structure
 
