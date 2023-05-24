@@ -21,7 +21,7 @@
 
 ## Learning Goals:
 - Now that we've discussed that JavaScript is the interactive and dynamic piece of a web page...
-- Learn to use JavaScript to collect and respond to user input and implement basic conditionals to determine the outcome of content on a web page.
+- We're going to talk about what input and output is, and we're going to build an interactive feature together that takes in user input and uses it to determine and produce an output.
 
 ## Input and Output: Today we're going to learn one way we can collect user input, and a few ways we can use input to determine and produce output.
 
