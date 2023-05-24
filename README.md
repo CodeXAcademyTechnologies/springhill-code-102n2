@@ -1,12 +1,6 @@
 # springhill-code-102n2
 
 # Class 06
-
-## Learning Goals:
-- Learn to incorporate JavaScript into a web page to create dynamic content that responds to input.
-- Learn to replicate code that uses logical branching and basic conditionals to determine the outcome of content on a web page.
-- JavaScript: What does a web site DO, while you are using it?
-
 ## Agenda:
 - Review of previous class
   - Share your learning
@@ -24,6 +18,11 @@
 - data types: 
 - variable:
 - console: A tool or interface that allows you to interact with a program or programming environment. It provides a way to display output, receive input, and execute commands or code snippets. The most common type of console you'll encounter is a developer console or browser console. It's a feature built into web browsers that allows developers to monitor and debug their web applications.
+
+## Learning Goals:
+- Learn to incorporate JavaScript into a web page to create dynamic content that responds to input.
+- Learn to replicate code that uses logical branching and basic conditionals to determine the outcome of content on a web page.
+- JavaScript: What does a web site DO, while you are using it?
 
 ## Input and Output: Today we're going to learn one way we can collect user input, and a few ways we can use input to determine and produce output.
 
