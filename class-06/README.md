@@ -41,13 +41,3 @@ JavaScript feature called "type coercion". Automatically converts values between
 
 Be careful with type coercion because it can sometimes lead to unexpected behavior or bugs. That's why it's generally recommended to explicitly convert user input to the desired type. But for now this serves our purpose.
 
-## Structure
-
-- WHY, what's the question or problem? In English...
-- WHAT, What is the solution or concepts we're going to use? In English..
-- HOW, What does this look like in code, how do we build it? In code...
-
-- Scale of 1-5. Have someone who gets it explain.
-- Gallery view
-- Call on students in order
-
