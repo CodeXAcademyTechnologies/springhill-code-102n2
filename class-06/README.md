@@ -18,10 +18,8 @@
 - console: A tool or interface that allows you to interact with a program or programming environment. It provides a way to display output, receive input, and execute commands or code snippets. The most common type of console you'll encounter is a developer console or browser console. It's a feature built into web browsers that allows developers to monitor and debug their web applications.
 
 ## Learning Goals:
-- Now that we've discussed that JavaScript is the interactive and dynamic piece of a web page...
-- We're going to talk about what input and output is, and we're going to build an interactive feature together that takes in user input and uses it to determine and produce an output.
 
-## Input and Output: Today we're going to learn one way we can collect user input, and a few ways we can use input to determine and produce output.
+### Input and Output: Collecting user input, and using it to determine and product output
 
 1. What are some real world applications of a website collecting user input, and using it to determine and produce an output?
   - Social media bio
@@ -29,7 +27,7 @@
   - Social media age limits
   - Quiz, whether or not answer checked is correct and how it affects a score
   
-Today were going to use the following concepts to collect input and produce output, definitions are included in Replit.
+Concepts to help us collect input and produce output.
 - variables
 - prompt() function
 - console.log
@@ -37,38 +35,6 @@ Today were going to use the following concepts to collect input and produce outp
 - data types
 - conditionals
 - operators
-
-- **Input: Use prompt to grab some input from the user (Name, hour age?)**
-- **Processing: (in this case, conditional generation of dynamic content). Using the input, show an if else block.**
-- **Output: Show students document.write. Show alternative method of output: console.log()**
-
-## What user input do we want to collect from the user? Let's display that information with a message.
-## Now let's use some new user input to determine an output. Some examples we could use are asking the time or the user's age and displaying a different message based on their answer
-
-```
-let username = prompt('What is your name?');
-document.write('Hello, ' + username);
-console.log('Hello, ' + username);
-
-console.log(typeof(username));
-
-let time = prompt('What hour is it? (0-23)');
-let message;
-
-console.log(typeof(time));
-
-if(time <= 11){
-    message = 'Good Morning!';
-} else if (time <= 18){
-    message = 'Good Afternoon!';
-}  else if(time < 24){
-    message = 'Good Evening!';
-} else {
-    message = 'That hour does not exist!';
-}
-
-document.write('Hello ' + username + '! ' + message);
-```
 
 ## How number comparison works in time function:
 JavaScript feature called "type coercion". Automatically converts values between different data types in certain situations. In this case, it compares the string input with numbers using comparison operators like <= or <, JavaScript tries to be helpful and converts the string to a number before making the comparison.
