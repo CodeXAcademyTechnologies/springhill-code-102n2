@@ -10,7 +10,7 @@ Students will publish a reading-notes to highlight skills gained during the cour
 2. Learning to Learn
   - Growth mindset
   - Demo and Lab
-3.Web Publishing
+3. Web Publishing
   - Markdown
   - Github pages
 See class slides and assignments for details.
