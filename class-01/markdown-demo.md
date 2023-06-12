@@ -5,7 +5,7 @@ Sushi
 Gyro plate
 
 ## Look at this cute burrito
-[cute burrito](https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/67855/cute-taco-clipart-md.png)
+[cute burrito(https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/67855/cute-taco-clipart-md.png)
 
 ## Ways I can stay in a growth mindset
 1. There's no comfort in the growth zone, and no growth in the comfort zone.
