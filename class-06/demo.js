@@ -1,24 +1,32 @@
-```
-let username = prompt('What is your name?');
-document.write('Hello, ' + username);
-console.log('Hello, ' + username);
+'use strict';
 
-console.log(typeof(username));
+alert('Warning!!!');
 
-let time = prompt('What hour is it? (0-23)');
+let usersName = prompt('What is your name?');
+console.log('Hello ' + usersName);
+document.write('Hello ' + usersName);
+
+let age = prompt('How old are you?');
+console.log(typeof(age));
+
 let message;
 
-console.log(typeof(time));
-
-if(time <= 11){
-    message = 'Good Morning!';
-} else if (time <= 18){
-    message = 'Good Afternoon!';
-}  else if(time < 24){
-    message = 'Good Evening!';
+if (age < 18) {
+    message = 'You are a minor';
+} else if (age >= 18) {
+    message = 'You are an adult';
+} else if (age >= 65) {
+    message = 'You qualify for our senior discount';
 } else {
-    message = 'That hour does not exist!';
+    message = 'That is not a valid entry. Please enter your age in numbers';
 }
 
-document.write('Hello ' + username + '! ' + message);
-```
+console.log(typeof(message));
+
+console.log(message);
+document.write(message);
+
+// Data Types:
+// String = '42'. Every character has its own place
+// Number = 42
+// Boolean = true or false
